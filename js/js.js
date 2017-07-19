@@ -16,10 +16,10 @@
 		}); // end menuToggle
 	}); // end function
 
-	$('.img').hover(function(){
+	$('.green').hover(function(){
 		$(this).css('opacity','0.5')
 	}, function (){
-		$(this).css('opacity','1')
+		$(this).css('opacity','0')
 	}); // end hover
 
 });//end ready
