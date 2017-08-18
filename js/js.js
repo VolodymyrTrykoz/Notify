@@ -3,6 +3,17 @@
 	  infinite: true,
 	  slidesToShow: 19,
   	  slidesToScroll: 10,
+  	  responsive: [
+                           
+                 {
+                   breakpoint: 1008,
+                   settings: {
+                   slidesToShow: 10,
+                   slidesToScroll: 5
+                             }
+                  }           
+
+                   ]
 	});//end slick 
 	$(function (){
 		$('.menuToggle').on('click', function(){
